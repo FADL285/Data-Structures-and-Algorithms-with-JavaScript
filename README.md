@@ -1,2 +1,2 @@
-# Data-Structures-and-Algorithms-with-JavaScript
+# algorithms-exercises
 Created with CodeSandbox

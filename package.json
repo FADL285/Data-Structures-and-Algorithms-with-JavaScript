@@ -1,7 +1,7 @@
 {
-  "name": "algorithms-exercises",
+  "name": "data-structure-and-algorithms-js",
   "version": "1.0.0",
-  "description": "The exercises for the Complete Intro to Algorithms",
+  "description": "",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html",

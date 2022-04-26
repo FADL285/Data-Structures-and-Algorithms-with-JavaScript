@@ -12,19 +12,20 @@
 
 function bubbleSort(nums) {
   let swapped = false;
+  let iterations = 0;
   do {
     swapped = false;
-    for (let i = 0; i < nums.length; i++) {
+    for (let i = 0; i < nums.length - iterations - 1; i++) {
       // snapshot(nums);
       if (nums[i] > nums[i + 1]) {
-        const temp = nums[i];
-        nums[i] = nums[i + 1];
-        nums[i + 1] = temp;
+        [nums[i], nums[i + 1]] = [nums[i + 1], nums[i]];
         swapped = true;
       }
     }
+    iterations++;
   } while (swapped);
   // snapshot(nums);
+  return nums;
 }
 
 // unit tests

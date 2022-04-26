@@ -11,11 +11,13 @@
 */
 
 function bubbleSort(nums) {
-  // code goes here
+  // Your code here
+
+  return nums;
 }
 
 // unit tests
-// do not modify the below code
+// do not modify the below code (just remove skip to test)
 test.skip("bubble sort", function () {
   const nums = [10, 5, 3, 8, 2, 6, 4, 7, 9, 1];
   const sortedNums = bubbleSort(nums);
